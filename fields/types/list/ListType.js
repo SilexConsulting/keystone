@@ -186,9 +186,9 @@ list.prototype.updateItem = function (item, data, files, callback) {
 	var field = this;
 	var values = this.getValueFromData(data);
 	// Don't update the value when it is undefined
-	/*if (values === undefined) {
+	/* if (values === undefined) {
 		return utils.defer(callback);
-	}*/
+	} */
 	// Reset the value when null or an empty string is provided
 	if (values === undefined || values === null || values === '') {
 		values = [];

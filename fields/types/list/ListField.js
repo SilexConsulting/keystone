@@ -137,6 +137,6 @@ const classes = StyleSheet.create({
 		margin: '2em 0',
 		padding: '1.3em',
 		backgroundColor: 'rgba(0, 0, 0, 0.03)',
-		borderRadius: '0.3rem'
+		borderRadius: '0.3rem',
 	},
 });
